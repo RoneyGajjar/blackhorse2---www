@@ -1,0 +1,12 @@
+/* app/globals.css or src/globals.css */
+@import "tailwindcss";
+
+@theme {
+    /* Bind Tailwind's font utilities to the Next.js optimized variables */
+    --font-serif: var(--font-playfair);
+    --font-sans: var(--font-inter);
+
+    /* Your brand colors */
+    --color-brand-dark: #0A1435;
+    --color-brand-beige: #F3EFEB;
+}
