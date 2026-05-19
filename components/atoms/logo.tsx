@@ -11,5 +11,6 @@ export const Logo = ({ className = "", ...props }: LogoProps) => (
     >
         <span>Black Horse</span>
         <span>Associates</span>
+        {/* <img src="/bh-logo.png" alt="Black Horse Associates" /> */}
     </div>
 );
