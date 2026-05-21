@@ -9,11 +9,11 @@ export const Hero: React.FC = () => {
             <div className="w-full lg:w-1/2 pr-0 lg:pr-12">
 
                 <Heading level={1} className="text-5xl lg:text-7xl mb-6 text-[#0A1435] leading-tight">
-                    Bulletproof Your U.S. Tax & Payroll Compliance.
+                    Where U.S. compliance meets global efficiency
                 </Heading>
 
                 <Text className="text-lg mb-10 max-w-md text-gray-500">
-                    Don't let shifting IRS regulations or payroll errors jeopardize your growth. Leverage 10+ years of specialized expertise to ensure your business remains audit-ready and optimized.
+                    Reliable, compliant, cost-effective tax and accounting outsourcing for US CPA firms. From bookkeeping to tax prep and audit support, we deliver precision, scalability, and faster turnarounds — every season.
                 </Text>
 
                 <div className="flex flex-wrap gap-4">

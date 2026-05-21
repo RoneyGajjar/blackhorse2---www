@@ -11,10 +11,10 @@ interface StatData {
 export const Features: React.FC = () => {
     // This is the updated 4-item array. If Next.js reads this, you will get 4 columns.
     const stats: StatData[] = [
-        { title: "400+", description: "People guided through major life decisions" },
-        { title: "96%", description: "Clients who report a clear shift within 3 sessions" },
-        { title: "14 yrs", description: "Of independent, conflict-free practice" },
-        { title: "4.9", description: "Average Client satisfaction rating" }
+        { title: "12+", description: "Years of experience in the U.S. tax and accounting industry" },
+        { title: "5000+", description: "US Tax returns prepared/Reviewed" },
+        { title: "60%", description: "Cost reduction" },
+        { title: "94%", description: "Client Retention Rate" }
     ];
 
     return (

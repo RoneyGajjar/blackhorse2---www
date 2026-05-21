@@ -14,23 +14,23 @@ export const Process: React.FC = () => {
     const processes: ProcessData[] = [
         {
             number: "01",
-            title: "The Audit-Trail Methodology",
-            description: "We start with a deep dive into where you are, what you want, and what's been standing in the way."
+            title: "Understand",
+            description: "We assess your firm's workflows, software, and service needs to build a customized engagement model."
         },
         {
             number: "02",
-            title: "Proactive Regulation Monitoring",
-            description: "Together we map out a clear, personalized plan — no generic advice, no one-size-fits-all solutions."
+            title: "Onboard",
+            description: "Secure setup, NDAs, team assignment, and SOP alignment ensure a smooth, confidential start."
         },
         {
             number: "03",
-            title: "Direct Partner Access",
-            description: "We execute step by step, with guidance at every decision point so you never feel lost or alone."
+            title: "Execute",
+            description: "Skilled professionals handle your tax, accounting, or audit tasks with precision, daily updates, and transparent tracking."
         },
         {
             number: "04",
-            title: "Refining for Lasting Results",
-            description: "As things evolve, so does the plan. We stay aligned to make sure progress doesn't just happen — it sticks."
+            title: "Review & Deliver",
+            description: "Multi-level quality checks and CPA oversight ensure accurate, compliant, and timely deliverables — every time."
         }
     ];
 
@@ -42,11 +42,11 @@ export const Process: React.FC = () => {
                 {/* Section Header */}
                 <div className="text-center mb-20">
                     <Text className="text-xs uppercase tracking-widest text-white/50 font-bold mb-6">
-                        THE PROCESS
+                        How We Work
                     </Text>
                     {/* Strictly using H2 for section titles */}
                     <Heading level={2} className="text-4xl md:text-5xl lg:text-[56px] text-white font-normal leading-tight">
-                        A Decade of Navigating <br className="hidden md:block" /> the IRS Landscape.
+                        A streamlined process designed <br className="hidden md:block" /> to feel like an in-house extension of your firm.
                     </Heading>
                 </div>
 

@@ -7,6 +7,7 @@ import { Services } from '@/components/organisms/Services';
 import { Process } from '@/components/organisms/Process';
 import { FAQ } from '@/components/organisms/FAQ';
 import { CTA } from '@/components/organisms/CTA';
+import { Footer } from '@/components/organisms/footer';
 
 export default function Home() {
   return (
@@ -15,16 +16,17 @@ export default function Home() {
       <Hero />
       <Statement />
       <Features />
-      <Situations />
+      {/* <Situations /> */}
       <Services />
       <Process />
-      <FAQ />
+      {/* <FAQ /> */}
       <CTA />
       {/* Add remaining organisms here:
         <ComplexNeeds />
         <Testimonials />
         <Footer />
       */}
+      <Footer />
     </main>
   );
 }
