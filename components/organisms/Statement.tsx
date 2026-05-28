@@ -8,9 +8,9 @@ export const Statement: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24 items-start">
 
         {/* Left Column: Navigation/Meta */}
-        <div className="w-full md:w-64 flex-shrink-0 flex flex-col mt-2">
-          {/* Updated to reflect the case study context */}
-          <Text className="text-white/50 text-xs font-bold uppercase tracking-widest mb-6">
+        {/* <div className="w-full md:w-64 flex-shrink-0 flex flex-col mt-2"> */}
+        {/* Updated to reflect the case study context */}
+        {/* <Text className="text-white/50 text-xs font-bold uppercase tracking-widest mb-6">
             Case Study Highlight
           </Text>
 
@@ -25,7 +25,7 @@ export const Statement: React.FC = () => {
               Optimize Your Capacity
             </a>
           </nav>
-        </div>
+        </div> */}
 
         {/* Right Column: The Narrative Statement */}
         <div className="w-full md:flex-1">

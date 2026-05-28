@@ -8,6 +8,7 @@ import { Process } from '@/components/organisms/Process';
 import { FAQ } from '@/components/organisms/FAQ';
 import { CTA } from '@/components/organisms/CTA';
 import { Footer } from '@/components/organisms/footer';
+import IndustriesSpecialize from '@/components/organisms/IndustreisSpecialization';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Statement />
       <Features />
+      <IndustriesSpecialize />
       {/* <Situations /> */}
       <Services />
       <Process />

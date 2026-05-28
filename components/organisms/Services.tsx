@@ -39,12 +39,12 @@ export const Services: React.FC = () => {
 
                 {/* Section Header */}
                 <div className="text-center mb-16">
-                    <Text className="text-xs uppercase tracking-widest text-gray-500 font-bold mb-4">
+                    {/* <Text className="text-xs uppercase tracking-widest text-gray-500 font-bold mb-4">
                         HOW I HELP
-                    </Text>
+                    </Text> */}
                     {/* Strict H2 Usage */}
                     <Heading level={2} className="text-5xl lg:text-[56px] font-normal text-brand-dark leading-tight">
-                        Rigorous Solutions <br /> for a Complex Market
+                        Why BlackHorse ?
                     </Heading>
                 </div>
 

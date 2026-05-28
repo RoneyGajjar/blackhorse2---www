@@ -14,17 +14,17 @@ export const CTA: React.FC = () => {
     ];
 
     return (
-        <section className="bg-brand-dark py-24 px-4 border-t border-white/10">
+        <section className="py-24 px-4 border-t border-white/10">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-8">
 
                 {/* Left Side: Headline & Subtext */}
                 <div className="w-full lg:w-1/2">
                     {/* H2 inherently applies Playfair Display */}
-                    <Heading level={2} className="text-5xl lg:text-[72px] font-normal text-white leading-[1.1] mb-6 tracking-tight">
+                    <Heading level={2} className="text-5xl lg:text-[72px] font-normal text-gray leading-[1.1] mb-6 tracking-tight">
                         Now let's make <br className="hidden lg:block" /> it work for you.
                     </Heading>
 
-                    <Text className="text-white/70 text-lg max-w-md leading-relaxed">
+                    <Text className="text-gray text-lg max-w-md leading-relaxed">
                         Book a free 30-minute call. No pressure, no pitch — just an honest conversation about where you are and where you want to go.
                     </Text>
                 </div>
@@ -38,12 +38,12 @@ export const CTA: React.FC = () => {
                         <span className="text-white font-serif text-3xl font-normal">400+</span>
                     </div>
 
-                    <Text className="text-white/70 text-sm mb-10">
+                    <Text className="text-gray text-sm mb-10">
                         Professionals guided through high-stakes decisions
                     </Text>
 
                     {/* Customizing the Button atom directly via className to match the specific white style */}
-                    <Button variant='secondary'>
+                    <Button variant='primary'>
                         Book a Consultation Call
                         {/* Right Arrow SVG */}
                         {/* <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
